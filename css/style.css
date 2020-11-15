@@ -1,0 +1,107 @@
+
+/*
+Name: Abhay Panchal
+Student Number : 000813104
+Date: 13-11-2020
+*/
+
+/*
+This CSS file use to style Html file.
+*/
+body{
+    padding: 0;
+    margin: 0;
+    background-color:lightseagreen;
+}
+
+@media screen and (max-width: 320px){
+    body{
+        width: 67%;
+    }
+    #heading{
+        text-align: left;
+        
+    }
+    .formname {
+        padding: 5px;
+        
+        width: 100%;
+        margin-top: 50px;
+        float: left;     
+    }
+    .players div{
+        display: inline;
+        margin-top: 5px;
+        font-size: 0.5ch;
+    }
+    
+    .players, .p1{
+        margin-left: 40px;
+    }
+    
+    .players, .p2{
+        margin-left: 20px;
+    }
+    #Result{
+        padding-top: 5px;
+        text-align: center;
+        font-size: 1ch;
+        color: brown;
+    }
+}
+
+#heading{
+    text-align: center;
+    font-size: 8ch;
+}
+.formname {
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 4px;
+    width: 22%;
+    margin-top: 50px;
+    margin-left: 600px;
+    
+}
+
+.players div{
+    display: inline;
+    margin-top: 5px;
+    font-size: 3ch;
+}
+
+.players, .p1{
+    margin-left: 315px;
+}
+
+.players, .p2{
+    margin-left: 250px;
+}
+
+.button{
+    text-align: center;
+    padding-top: 5px;
+}
+
+#Result{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 5ch;
+    color: brown;
+}
+
+#img2{
+    margin-left: 90px;
+}
+
+#help {
+    float: right;
+    margin-right: 20px;
+}
+
+#Score{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 5ch;
+    color: brown;
+}
